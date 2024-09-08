@@ -27,7 +27,7 @@ pipeline {
         
         stage('Checkout from Git') {                        
             steps {                                       
-                git branch: 'main', url: 'https://github.com/yash509/DevSecOps-GitHub-PF-React-App-Deployment.git'
+                git branch: 'main', url: 'https://github.com/yash509/DevSecOps-SysInfo-WebApp-Deployment.git'
             }
         }
         
